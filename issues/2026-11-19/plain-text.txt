@@ -3,7 +3,7 @@ Highlands Chamber of Commerce
 
 View this email in your browser: *|ARCHIVE|*
 
-*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* if you’re looking for something to do this week, you’ve got plenty of options in Highlands. You can lace up your skates at Kelsey-Hutchinson Founders Park starting today, and on Friday morning families can learn how birds of prey hunt in winter with the Highlands Biological Station. Saturday is a full one: oysters and live bluegrass at Highlander Mountain House in the afternoon, then Mark O’Connor’s Appalachian Christmas at the Highlands Performing Arts Center that night. Take a look at everything happening this week below.
+*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* if you’re looking for something to do this week, you’ve got plenty of options in Highlands. You can lace up your skates at Kelsey-Hutchinson Founders Park starting today, and on Friday morning families can learn how birds of prey hunt in winter with the Highlands Biological Foundation. Saturday is a full one: oysters and live bluegrass at Highlander Mountain House in the afternoon, then Mark O’Connor’s Appalachian Christmas at the Highlands Performing Arts Center that night. Take a look at everything happening this week below.
 
 
 ========================================
@@ -29,7 +29,7 @@ Tickets: https://www.eventbrite.com/e/highlander-mountain-house-salon-series-wit
 
 
 RAPID RAPTORS
-Highlands Biological Station
+Highlands Biological Foundation
 Friday, November 20 | 10am-12pm
 Nature Center Amphitheater | 930 Horse Cove Rd
 
@@ -74,7 +74,7 @@ Tickets: https://ci.ovationtix.com/36289/production/1259195?performanceId=117295
 
 
 HOMESTEAD SKILLS DROP-IN
-Highlands Biological Station
+Highlands Biological Foundation
 Saturday, November 21 | 10am-12pm
 Valentine Meadow | 888 Horse Cove Rd
 
@@ -190,7 +190,7 @@ Highlands Chamber of Commerce/Visit Highlands
 Saturday, November 28 | 5:30pm
 Kelsey-Hutchinson Founders Park
 
-Highlands welcomes the holiday season with its annual Light Up the Park & Main celebration at Kelsey-Hutchinson Founders Park. Enjoy Christmas carols, holiday treats, and a reading of ’Twas the Night Before Christmas by the Mayor before Santa makes his grand arrival aboard a fire truck. The evening concludes with the lighting of the park and Main Street, illuminating downtown Highlands for the holiday season.
+Highlands welcomes the holiday season with its annual Light Up the Park & Main celebration at Kelsey-Hutchinson Founders Park. Enjoy Christmas carols, holiday treats, and a reading of ’Twas the Night Before Christmas by Mayor Taylor before Santa makes his grand arrival aboard a fire truck. The evening concludes with the lighting of the park and Main Street, illuminating downtown Highlands for the holiday season.
 Learn More: https://www.highlandschamber.org/holidays-in-highlands/?guid=5f17d79a-eede-4d33-80a0-e4be7500c123&preview=true
 
 
@@ -204,7 +204,7 @@ Tickets: https://ci.ovationtix.com/36289/production/1275796?performanceId=118077
 
 
 WINTER WILDLIFE HABITAT WALK
-Highlands Biological Station
+Highlands Biological Foundation
 Friday, December 4 | 10am
 North Campus | 111 Lower Lake Rd
 
@@ -221,7 +221,7 @@ Gather a few friends for an evening of painting and wine at The Bascom. Artist C
 Register: https://thebascom.org/all-events/events-by-type/holiday-market/paint-and-sip-winter-scene-26
 
 
-LIGHTING OF THE MENORAH
+LIGHTING OF THE MENORAHS
 Highlands Chamber of Commerce
 Friday, December 4 | 5pm
 Highlands Community Building | 411 Pine St
@@ -236,7 +236,7 @@ Friday, December 4 | 7-9pm
 Smoky Mountain Center For the Performing Arts | 1028 Georgia Rd, Franklin
 
 Christmas Back Home brings a fresh sound to familiar holiday favorites, mixing blues, jazz, reggae and rock with original songs, stories and plenty of laughs. Enjoy an evening of live music and Christmas classics with a few unexpected twists.
-Tickets: https://smokymountainarts.com/pec-events/christmas-back-home-2/
+Tickets: https://www.smokymountainarts.com/event-details/christmas-back-home
 
 
 HIGHLANDS CHRISTMAS PARADE
@@ -312,7 +312,7 @@ RSVP: https://docs.google.com/forms/d/e/1FAIpQLScX5zey9-HLYHkK2qirmnNw87gwl96SIX
 
 
 CHILL SEEKERS WINTER HIKE TO RANGER FALLS
-Highlands Biological Station
+Highlands Biological Foundation
 Friday, December 11 | 10am-12pm
 Ranger Falls Trailhead | 2140 Flat Mountain Rd
 
@@ -348,7 +348,7 @@ Tickets: https://ci.ovationtix.com/36289/production/1286967?performanceId=118551
 
 
 SEASON’S GREETINGS HOLIDAY GATHERING
-Highlands Biological Station
+Highlands Biological Foundation
 Saturday, December 12 | 10am-2pm
 HBF Headquarters | 2465 Cashiers Rd
 
@@ -380,7 +380,7 @@ Saturday, December 12 | 7-9pm
 Smoky Mountain Center For the Performing Arts | 1028 Georgia Rd, Franklin
 
 Point of Grace brings its vocal harmonies to Christmas carols and holiday favorites on the Comfort & Joy Tour. Singer-songwriter Jason Gray joins the group for an evening of music and laughter to celebrate the season.
-Tickets: https://smokymountainarts.com/pec-events/point-of-grace-comfort-joy-christmas-tour-with-jason-gray/
+Tickets: https://www.smokymountainarts.com/event-details/point-of-grace-comfort-joy-christmas-tour-with-jason-gray
 
 
 EDWIN MCCAIN: THE GREAT AMERICAN ROMANTIC

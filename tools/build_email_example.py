@@ -19,7 +19,7 @@ PREVIEW = ("Mark O’Connor’s Appalachian Christmas, an oyster roast with blue
 INTRO = ("*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* if you’re looking for something to do this "
          "week, you’ve got plenty of options in Highlands. You can lace up your skates at Kelsey-Hutchinson Founders Park starting today, "
          "and on Friday morning families can learn how birds of prey hunt in winter with the "
-         "Highlands Biological Station. Saturday is a full one: oysters and live bluegrass at Highlander "
+         "Highlands Biological Foundation. Saturday is a full one: oysters and live bluegrass at Highlander "
          "Mountain House in the afternoon, then Mark O’Connor’s Appalachian Christmas at the "
          "Highlands Performing Arts Center that night. Take a look at everything happening&nbsp;this&nbsp;"
          "week&nbsp;below.")
