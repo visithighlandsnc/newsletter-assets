@@ -230,6 +230,16 @@ ONG_ACT = '''<p style="margin:0 0 6px;font-family:Georgia,serif;font-size:16px;c
 '''
 
 
+TIME_RANGE = re.compile(r"(\d(?::\d\d)?(?:am|pm)?)\s*[–—-]\s*(\d)", re.I)
+TIME_SPACE = re.compile(r"(\d(?::\d\d)?)\s+(am|pm)\b", re.I)
+
+
+def tidy_times(t):
+    """Times read 4-5pm, 10am-2pm: hyphen, no spaces, lowercase am/pm."""
+    t = TIME_SPACE.sub(lambda m: m.group(1) + m.group(2).lower(), t)
+    return TIME_RANGE.sub(r"\1-\2", t)
+
+
 def main():
     cards = json.load(open("/home/claude/scripts/issue_cards_v2.json"))
     h = open("/home/claude/ref/lastweek.html", encoding="utf-8").read()
@@ -299,7 +309,7 @@ def main():
         n += 1
         body += card_html(n, c) + "\n" + DIVIDER + "\n"
     body += on_head + listings + tail
-    open(f"/home/claude/out/newsletter-{ISSUE}.html", "w", encoding="utf-8").write(body.replace("header-v2.png\" style=\"display:block;width:100%;max-width:600px;height:auto;border:0;background:#a89b2a", "header-v2.png\" style=\"display:block;width:100%;max-width:600px;height:auto;border:0;background:#2e5940"))
+    open(f"/home/claude/out/newsletter-{ISSUE}.html", "w", encoding="utf-8").write(tidy_times(body).replace("header-v2.png\" style=\"display:block;width:100%;max-width:600px;height:auto;border:0;background:#a89b2a", "header-v2.png\" style=\"display:block;width:100%;max-width:600px;height:auto;border:0;background:#2e5940"))
 
     # --- plain text
     soup = BeautifulSoup(listings, "html.parser")
@@ -350,7 +360,7 @@ def main():
             "Want to change how you receive these emails?",
             "Update your preferences: *|UPDATE_PROFILE|*",
             "Unsubscribe: *|UNSUB|*", ""]
-    open(f"/home/claude/out/newsletter-{ISSUE}-plain-text.txt", "w", encoding="utf-8").write("\n".join(txt))
+    open(f"/home/claude/out/newsletter-{ISSUE}-plain-text.txt", "w", encoding="utf-8").write(tidy_times("\n".join(txt)))
 
     # --- link list for the Canva-image route
     ll = [f"Community News, {ISSUE_LONG}: links in newsletter order", "",
