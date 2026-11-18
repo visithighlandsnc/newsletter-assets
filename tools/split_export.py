@@ -9,6 +9,21 @@ import json, sys, urllib.request, io, os
 from PIL import Image
 
 m = json.load(open(sys.argv[1]))
+
+# Crop mode: {"crops": [{"url": ..., "out": "2026-11-19/photo-x.jpg",
+#   "ratio": 1.25, "anchor": 0.5}]}  ratio = max height / width,
+#   anchor = share of the extra height cut from the top (0 top, 0.5 center).
+if "crops" in m:
+    for c in m["crops"]:
+        req = urllib.request.Request(c["url"], headers={"User-Agent": "Mozilla/5.0"})
+        im = Image.open(io.BytesIO(urllib.request.urlopen(req).read())).convert("RGB")
+        W, H = im.size
+        keep_h = min(H, round(W * c.get("ratio", 1.25)))
+        top = round((H - keep_h) * c.get("anchor", 0.5))
+        os.makedirs(os.path.dirname(c["out"]), exist_ok=True)
+        im.crop((0, top, W, top + keep_h)).save(c["out"], quality=88, optimize=True)
+        print("cropped", c["out"], W, keep_h)
+    sys.exit(0)
 data = urllib.request.urlopen(m["url"]).read()
 im = Image.open(io.BytesIO(data)).convert("RGB")
 W, H = im.size
