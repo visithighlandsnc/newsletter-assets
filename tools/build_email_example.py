@@ -140,7 +140,9 @@ DIVIDER = ('<tr>\n<!-- DIVIDER: Horizontal line and spacing between content bloc
 
 def card_html(n, c):
     url = H.escape(link_for(c))
-    if c["id"]:
+    if c.get("photo"):
+        src, w, h = c["photo"]
+    elif c["id"]:
         f, w, h = PHOTOS[c["id"]]
         src = SV + f
     else:
@@ -166,7 +168,7 @@ def card_html(n, c):
 <tr>
 <td align="center" style="padding:0;text-align:center;">
 <!-- EDIT: EVENT TITLE GRAPHIC: edit src and alt. Made in Canva, hosted at visithighlandsnc.github.io/newsletter-assets -->
-<img alt="{title_alt}" height="42" src="{ASSETS}/title-{n:02d}.png" style="display:block;margin:16px auto 0;width:100%;max-width:600px;height:auto;border:0;font-family:Georgia,serif;font-size:22px;font-style:italic;color:#826638;" width="600">
+<img alt="{title_alt}" height="42" src="{ASSETS}/{c.get('title_img', f'title-{n:02d}.png')}" style="display:block;margin:16px auto 0;width:100%;max-width:600px;height:auto;border:0;font-family:Georgia,serif;font-size:22px;font-style:italic;color:#826638;" width="600">
 </td>
 </tr>
 <tr>
@@ -214,8 +216,16 @@ ICE = '''<!-- START RECURRING LISTING: Kelsey-Hutchinson Founders Park -->
 '''
 
 
+ONG_ACT = '''<p style="margin:0 0 6px;font-family:Georgia,serif;font-size:16px;color:#2e5940;line-height:25px;">
+<!-- EDIT: Activity name; schedule and any notes follow the closing strong tag. -->
+<strong style="font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">{name}</strong>
+<br>{sched}
+</p>
+'''
+
+
 def main():
-    cards = json.load(open("/home/claude/scripts/issue_cards.json"))
+    cards = json.load(open("/home/claude/scripts/issue_cards_v2.json"))
     h = open("/home/claude/ref/lastweek.html", encoding="utf-8").read()
 
     # --- pieces of last week's template
@@ -243,6 +253,32 @@ def main():
     tail = tail.replace("All rights reserved.", "All&nbsp;rights&nbsp;reserved.")
     tail = re.sub(r"\s+or\s+(<a [^>]*>unsubscribe</a>)", r"&nbsp;or&nbsp;\1", tail)
     listings = listings.replace("<br>November 14 &amp; 15 |&nbsp;10am-1pm\n", "")
+    # --- Ongoing additions from member sites and the Laurel calendar (Nov 18 review)
+    def _act(name, sched):
+        return ONG_ACT.format(name=name, sched=sched)
+    def _listing(org, acts, url):
+        return (f'<!-- START RECURRING LISTING: {org} -->\n<tr>\n<td style="padding:16px 0;text-align:center;">\n'
+                f'<!-- EDIT: Organizer name -->\n<p style="margin:0 0 8px;font-family:Arial,sans-serif;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#826638;line-height:16px;">{org.replace(" ", "&nbsp;", 1) if org.count(" ")==1 else org.rsplit(" ",1)[0]+"&nbsp;"+org.rsplit(" ",1)[1]}</p>\n'
+                + "".join(acts) +
+                f'<!-- EDIT: More info destination in href -->\n<a href="{url}" style="font-family:Arial,sans-serif;font-size:12px;color:#2e5940;text-decoration:underline;">More info</a>\n</td>\n</tr>\n<!-- END RECURRING LISTING: {org} -->\n')
+    def _add_acts(listings, org, acts):
+        end = f"<!-- EDIT: More info destination in href -->"
+        i = listings.find(f"<!-- START RECURRING LISTING: {org} -->")
+        j = listings.find(end, i)
+        return listings[:j] + "".join(acts) + listings[j:]
+    listings = _add_acts(listings, "The Bascom", [
+        _act("Holiday&nbsp;Market", "Mondays through Saturdays |&nbsp;10am-5pm"),
+        _act("Fiber&nbsp;Club", "Saturdays |&nbsp;10am-12pm")])
+    listings = _add_acts(listings, "Hudson Library", [
+        _act("Family&nbsp;Storytime", "Thursdays |&nbsp;10:40-11am")])
+    listings = _add_acts(listings, "Trailborn Highlands", [
+        _act("Supper Club&nbsp;Sundays", "Sundays |&nbsp;4-6pm<br>Live music with David&nbsp;Crisp")])
+    k = listings.find("<!-- START RECURRING LISTING: Skyline Lodge -->")
+    listings = listings[:k] + _listing("4118 Kitchen &amp; Bar", [_act("Live Music&nbsp;Thursdays", "Thursdays |&nbsp;6:30-8:30pm")], "https://4118kitchenbar.toast.site/") + listings[k:]
+    k = listings.find("<!-- START RECURRING LISTING: Western Carolina Brew and Wine -->")
+    listings = listings[:k] + _listing("Spruce Interiors", [_act("Tuesday Tiles on the&nbsp;Terrace", "Tuesdays |&nbsp;5pm<br>Open tile games with refreshments; sign-up&nbsp;required.")], "https://tickets.signupgenius.com/#/wizard/org/org_2yf/events/evt_1sb") + listings[k:]
+    listings = re.sub(r"(\S+) \|&nbsp;([^<\n]+)",
+                      r'<span style="white-space:nowrap;">\1&nbsp;|&nbsp;\2</span>', listings)
 
     # --- event sections
     tw = [c for c in cards if month_day(c["date"]) <= THIS_WEEK_END]
