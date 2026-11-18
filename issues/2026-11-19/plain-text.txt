@@ -3,7 +3,7 @@ Highlands Chamber of Commerce
 
 View this email in your browser: *|ARCHIVE|*
 
-*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* you can lace up your skates at Kelsey-Hutchinson Founders Park starting today, and the holiday season in Highlands is right around the corner. Small Business Saturday and Light Up the Park & Main are November 28, and the Highlands Christmas Parade is December 5. Take a look at what’s coming up below and start making plans with friends and family.
+*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* there’s plenty to do in Highlands this week. You can lace up your skates at Kelsey-Hutchinson Founders Park starting today, and on Friday morning families can learn how birds of prey hunt in winter with the Highlands Biological Station. Saturday is a full one: oysters and live bluegrass at Highlander Mountain House in the afternoon, then Mark O’Connor’s Appalachian Christmas at the Highlands Performing Arts Center that night. Take a look at everything happening this week below.
 
 
 ========================================

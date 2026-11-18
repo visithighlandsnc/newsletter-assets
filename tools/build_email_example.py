@@ -14,13 +14,15 @@ ASSETS = f"https://visithighlandsnc.github.io/newsletter-assets/{ISSUE}"
 SV = "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/crm/highlandsnc/"
 CHAMBER = "https://www.highlandschamber.org"
 
-PREVIEW = ("Ice skating opens today, plus Small Business Saturday, Light Up the Park & Main "
-           "and the events coming up around Highlands.")
-INTRO = ("*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* you can lace up your skates at "
-         "Kelsey-Hutchinson Founders Park starting today, and the holiday season in Highlands is "
-         "right around the corner. Small Business Saturday and Light Up the Park &amp; Main are "
-         "November 28, and the Highlands Christmas Parade is December 5. Take a look at what’s "
-         "coming up below and start making plans with&nbsp;friends&nbsp;and&nbsp;family.")
+PREVIEW = ("Mark O’Connor’s Appalachian Christmas, an oyster roast with bluegrass, "
+           "ice skating and more happening in Highlands this week.")
+INTRO = ("*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* there’s plenty to do in Highlands "
+         "this week. You can lace up your skates at Kelsey-Hutchinson Founders Park starting today, "
+         "and on Friday morning families can learn how birds of prey hunt in winter with the "
+         "Highlands Biological Station. Saturday is a full one: oysters and live bluegrass at Highlander "
+         "Mountain House in the afternoon, then Mark O’Connor’s Appalachian Christmas at the "
+         "Highlands Performing Arts Center that night. Take a look at everything happening&nbsp;this&nbsp;"
+         "week&nbsp;below.")
 
 # Chamber event photos (og:image file names) and sizes, by Simpleview event ID
 PHOTOS = {
