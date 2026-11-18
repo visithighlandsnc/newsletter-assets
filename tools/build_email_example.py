@@ -233,7 +233,7 @@ def main():
     pre = re.sub(r'alt="Highlands Chamber of Commerce Community News, [^"]*"',
                  f'alt="Highlands Chamber of Commerce Community News, {ISSUE_LONG}"', pre)
     pre = re.sub(r'(<img alt="Highlands Chamber of Commerce Community News[^>]*?)height="\d+" src="[^"]*"',
-                 lambda m: m.group(1) + f'height="394" src="{ASSETS}/header.png"', pre)
+                 lambda m: m.group(1) + f'height="394" src="{ASSETS}/header-v2.png"', pre)
     pre = re.sub(r'(line-height:29px;">)\*\|IF:FNAME\|\*.*?(</p>)', lambda m: m.group(1) + INTRO + m.group(2), pre, flags=re.S)
 
     # --- Ongoing: add ice skating, drop past Mountain Findings dates
@@ -257,7 +257,7 @@ def main():
         n += 1
         body += card_html(n, c) + "\n" + DIVIDER + "\n"
     body += on_head + listings + tail
-    open(f"/home/claude/out/newsletter-{ISSUE}.html", "w", encoding="utf-8").write(body)
+    open(f"/home/claude/out/newsletter-{ISSUE}.html", "w", encoding="utf-8").write(body.replace("header-v2.png\" style=\"display:block;width:100%;max-width:600px;height:auto;border:0;background:#a89b2a", "header-v2.png\" style=\"display:block;width:100%;max-width:600px;height:auto;border:0;background:#2e5940"))
 
     # --- plain text
     soup = BeautifulSoup(listings, "html.parser")
