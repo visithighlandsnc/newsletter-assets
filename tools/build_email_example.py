@@ -62,6 +62,9 @@ PHOTOS = {
  "3055": ("ranger-falls-dec11_F4B7E57C-AE30-4B56-5EF55F35DCEB1F91_f4c32191-0d2d-3eea-cf691c78b733e6d5.jpg", 1150, 760),
  "3056": ("holiday-gathering-dec12_F4D01BC6-A295-C3D8-5E2D3E53D9683AE8_f4db11f8-e3ea-c903-a8d494c762741fc1.jpg", 1150, 760),
 }
+# Tall photos cropped to 4:5 (max 360x450 in the email) by tools/split_export.py crop mode
+CROPPED = {"hunger": (870, 1088), "2947": (800, 1000), "2894": (923, 1154),
+           "merritt": (1152, 1440), "santa": (1080, 1350)}
 BIRD_PHOTO = ("https://highlandsbiological.org/wp-content/uploads/2026/11/HBS_ChristmasBirdCount_FBEvent_1920x1005-1024x536.png", 1024, 536)
 
 # Chamber event pages for events with no External Link in the report
@@ -147,6 +150,9 @@ def card_html(n, c):
         src = SV + f
     else:
         src, w, h = BIRD_PHOTO
+    # Photos taller than 4:5 use a cropped copy hosted with the issue assets
+    if c["key"] in CROPPED:
+        src, (w, h) = f"{ASSETS}/photo-{c['key']}.jpg", CROPPED[c["key"]]
     disp = 400 if w / h >= 1.25 else 360
     disp_h = round(disp * h / w)
     title = c["title_pretty"]
