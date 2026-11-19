@@ -64,7 +64,8 @@ PHOTOS = {
 }
 # Tall photos cropped to 4:5 (max 360x450 in the email) by tools/split_export.py crop mode
 CROPPED = {"hunger": (870, 1088), "2947": (800, 1000), "2894": (923, 1154),
-           "merritt": (1152, 1440), "santa": (1080, 1350)}
+           "merritt": (1152, 1440), "santa": (1080, 1350),
+           "supperclub": (801, 1001)}
 BIRD_PHOTO = ("https://highlandsbiological.org/wp-content/uploads/2026/11/HBS_ChristmasBirdCount_FBEvent_1920x1005-1024x536.png", 1024, 536)
 
 # Chamber event pages for events with no External Link in the report
