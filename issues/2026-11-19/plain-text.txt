@@ -3,7 +3,7 @@ Highlands Chamber of Commerce
 
 View this email in your browser: *|ARCHIVE|*
 
-*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* if you’re looking for something to do this week, you’ve got plenty of options in Highlands. You can lace up your skates at Kelsey-Hutchinson Founders Park starting today, and on Friday morning families can learn how birds of prey hunt in winter with the Highlands Biological Foundation. Saturday is a full one: oysters and live bluegrass at Highlander Mountain House in the afternoon, then Mark O’Connor’s Appalachian Christmas at the Highlands Performing Arts Center that night. Take a look at everything happening this week below.
+*|IF:FNAME|*Hi *|FNAME|*,*|ELSE:|*Hi there,*|END:IF|* the ice rink at Kelsey-Hutchinson Founders Park opens today, and there’s plenty more on the calendar this week. On Saturday, head to Highlander Mountain House for oysters and live bluegrass, then catch Mark O’Connor’s Appalachian Christmas at the Highlands Performing Arts Center that night. Here’s everything happening this week.
 
 
 ========================================
