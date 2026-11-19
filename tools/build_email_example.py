@@ -108,6 +108,7 @@ def nice_place(s):
     t = s.title()
     t = re.sub(r"\bHbf\b", "HBF", t)
     t = re.sub(r"\bSc\b", "SC", t)
+    t = re.sub(r"(\d)(St|Nd|Rd|Th)\b", lambda m: m.group(1) + m.group(2).lower(), t)
     t = t.replace(" And ", " and ").replace(" Of ", " of ").replace(" The ", " the ")
     return t
 
