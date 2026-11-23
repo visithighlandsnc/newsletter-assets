@@ -21,7 +21,7 @@ One line per Canva page, in page order.
 18. Holidays at the Historical Society: https://www.cashiershistory.org/holidays-at-chs-2026
 19. Winter Wildlife Habitat Walk: https://highlandsbiological.org/calendar/winter-wildlife-habitat-walk/
 20. Paint and Sip: Winter Scene: https://thebascom.org/all-events/events-by-type/holiday-market/paint-and-sip-winter-scene-26
-21. Lighting of the Menorahs: https://www.highlandschamber.org/holidays-in-highlands/
+21. Lighting of the Menorahs: mailto:businessservices@highlandschamber.org?subject=Lighting%20of%20the%20Menorahs%20RSVP
 22. Christmas Back Home: https://www.smokymountainarts.com/event-details/christmas-back-home
 23. Highlands Christmas Parade: https://www.highlandschamber.org/event/highlands-christmas-parade/2888/
 24. Highlands Holiday Crawl: https://www.highlandschamber.org/event/highlands-holiday-crawl/3020/
