@@ -5,60 +5,59 @@ One line per Canva page, in page order.
 2. A Friendly Reminder heading (no link)
 3. Leadership Highlands: Class of 2027: https://www.highlandschamber.org/chamber/leadership-highlands/
 4. This Week heading (no link)
-5. Haley’s & Laurel with Bijou Pop-Up: no link
-6. Thanksgiving at Old Edwards Inn & Spa: https://www.oldedwardsinn.com/highlands-nc-events
-7. Thanksgiving at Highlands Supper Club: https://www.trailborn.com/highlands
-8. Gingerbread House Workshop: https://thebascom.org/all-events/events-by-type/holiday-market
-9. Holiday Market Reception: https://thebascom.org/all-events/events-by-type/holiday-market/holiday-market-reception-2
-10. The Hunger Games: Sunrise on the Reaping: https://www.highlandsperformingarts.com/events-tickets/the-hunger-games-friday
-11. Rumours: A Fleetwood Mac Tribute: https://ci.ovationtix.com/36289/production/1266725?performanceId=11770996
-12. Hearth & Hops Holiday Market: no link
-13. Small Business Saturday Holiday Stroll: https://www.highlandschamber.org/event/small-business-saturday-holiday-stroll/2923/
-14. Light Up the Park & Main: https://www.highlandschamber.org/holidays-in-highlands/
-15. Barn Dance: https://www.themountainrlc.org/event/grateful-gathering-2026/
-16. Celtic Angels Christmas: https://ci.ovationtix.com/36289/production/1275796?performanceId=11807778
-17. Upcoming Events heading (no link)
-18. Holidays at the Historical Society: https://www.cashiershistory.org/holidays-at-chs-2026
-19. Winter Wildlife Habitat Walk: https://highlandsbiological.org/calendar/winter-wildlife-habitat-walk/
-20. Paint and Sip: Winter Scene: https://thebascom.org/all-events/events-by-type/holiday-market/paint-and-sip-winter-scene-26
-21. Lighting of the Menorahs: mailto:businessservices@highlandschamber.org?subject=Lighting%20of%20the%20Menorahs%20RSVP
-22. Christmas Back Home: https://www.smokymountainarts.com/event-details/christmas-back-home
-23. Highlands Christmas Parade: https://www.highlandschamber.org/event/highlands-christmas-parade/2888/
-24. Highlands Holiday Crawl: no link
-25. Holiday Market Reception: https://thebascom.org/all-events/events-by-type/holiday-market/holiday-market-reception-3
-26. Christmas Carol Sing: no link
-27. Winterfest: https://www.skyline-lodge.com/things-to-do-highlands/?eventId=december-5-winterfest-2978173f&preselectedDate=2026-12-05
-28. Saturday Sound Bath: https://unfurlwellnessspa.com/
-29. The Gatlin Brothers: Country & Christmas: https://www.smokymountainarts.com/event-details/the-gatlin-brothers-country-christmas
-30. Sean Dietrich: https://ci.ovationtix.com/36289/production/1251879?performanceId=11695764
-31. HCFF Prelude #1: Papertown: https://www.highlandsperformingarts.com/events-tickets/hcff-prelude-1-papertown
-32. A Holiday Tea: https://www.scottdanielpresents.com/event-details/a-holiday-tea-2026-12-07-11-30-1
-33. Restorative Yoga + Sound Bath: https://yogahighlands.com/classes/
-34. Naturalist Walk: https://docs.google.com/forms/d/e/1FAIpQLScX5zey9-HLYHkK2qirmnNw87gwl96SIX3LS3TPXcfWiIF7Sw/viewform
-35. Chill Seekers Winter Hike to Ranger Falls: https://highlandsbiological.org/calendar/winter-hike-to-ranger-falls/
-36. Live Christmas Music with Matt Molesworth & Friends: https://4118kitchenbar.toast.site
-37. Frozen The Musical: https://www.highlandsperformingarts.com/events-tickets/frozen-the-musical-friday
-38. The Black Jacket Symphony Presents: Kiss “Destroyer”: https://ci.ovationtix.com/36289/production/1286967?performanceId=11855147
-39. Season’s Greetings Holiday Gathering: https://highlandsbiological.org/calendar/seasons-greetings-holiday-gathering/
-40. Sapphire Valley Winter Arts & Crafts Festival: https://sapphirevalleyresorts.com/
-41. Annual Fireside Sale: https://www.folkschool.org/fireside
-42. Christmas Music Bingo: no link
-43. Point of Grace: Comfort & Joy Christmas Tour with Jason Gray: https://www.smokymountainarts.com/event-details/point-of-grace-comfort-joy-christmas-tour-with-jason-gray
-44. Edwin McCain: The Great American Romantic: https://ci.ovationtix.com/36289/production/1281965?performanceId=11840211
-45. Wildcraft Wreath Making: https://docs.google.com/forms/d/e/1FAIpQLSeoU5NjeSTLk8J45x-Tt5fiIEkmFD1gekRZZ8FtYa-0kpMkwA/viewform
-46. Christmas Karaoke with Kyle Rhodes: https://4118kitchenbar.toast.site
-47. A Highlands Christmas with Mike Kinnebrew: https://www.highlandsperformingarts.com/events-tickets/ahighlandschristmas
-48. Salon Series with Tift Merritt: https://www.eventbrite.com/e/highlander-mountain-house-salon-series-with-tift-merritt-tickets-1992447041737
-49. Highlands Christmas Bird Count: https://highlandsbiological.org/calendar/highlands-christmas-bird-count/
-50. Samantha Fish: Shake ’Em on Down Tour: https://ci.ovationtix.com/36289/production/1283372?performanceId=11845441
-51. Breakfast with Santa: https://www.skyline-lodge.com/things-to-do-highlands/?experienceId=december-19-breakfast-with-santa-b2cc673f
-52. Intro to Watercolor I: Learning the Strokes: https://www.thebascom.org/all-events/events-by-type/classes-workshops/intro-to-watercolor-learning-the-strokes-dec
-53. Sleigh the Mic: Christmas Karaoke & Caroling: no link
-54. Vinyl & Vibes: Christmas: https://www.opentable.com/booking/experiences-availability?rid=1183195&restref=1183195&experienceId=796205
-55. Ongoing Events heading (no link)
-56. Ongoing Events list (no single link; More info links below)
-57. Just Landed merch banner: https://highlands-chamber-of-commerce.square.site/
-58. Ask Mayor Pat banner: https://askmayorpat.com/contact-pat
+5. Thanksgiving at Old Edwards Inn & Spa: https://www.oldedwardsinn.com/highlands-nc-events
+6. Thanksgiving at Highlands Supper Club: https://www.trailborn.com/highlands
+7. Gingerbread House Workshop: https://thebascom.org/all-events/events-by-type/holiday-market
+8. Holiday Market Reception: https://thebascom.org/all-events/events-by-type/holiday-market/holiday-market-reception-2
+9. The Hunger Games: Sunrise on the Reaping: https://www.highlandsperformingarts.com/events-tickets/the-hunger-games-friday
+10. Rumours: A Fleetwood Mac Tribute: https://ci.ovationtix.com/36289/production/1266725?performanceId=11770996
+11. Hearth & Hops Holiday Market: no link
+12. Small Business Saturday Holiday Stroll: https://www.highlandschamber.org/event/small-business-saturday-holiday-stroll/2923/
+13. Light Up the Park & Main: https://www.highlandschamber.org/holidays-in-highlands/
+14. Barn Dance: https://www.themountainrlc.org/event/grateful-gathering-2026/
+15. Celtic Angels Christmas: https://ci.ovationtix.com/36289/production/1275796?performanceId=11807778
+16. Upcoming Events heading (no link)
+17. Holidays at the Historical Society: https://www.cashiershistory.org/holidays-at-chs-2026
+18. Winter Wildlife Habitat Walk: https://highlandsbiological.org/calendar/winter-wildlife-habitat-walk/
+19. Paint and Sip: Winter Scene: https://thebascom.org/all-events/events-by-type/holiday-market/paint-and-sip-winter-scene-26
+20. Lighting of the Menorahs: mailto:businessservices@highlandschamber.org?subject=Lighting%20of%20the%20Menorahs%20RSVP
+21. Christmas Back Home: https://www.smokymountainarts.com/event-details/christmas-back-home
+22. Highlands Christmas Parade: https://www.highlandschamber.org/event/highlands-christmas-parade/2888/
+23. Highlands Holiday Crawl: no link
+24. Holiday Market Reception: https://thebascom.org/all-events/events-by-type/holiday-market/holiday-market-reception-3
+25. Christmas Carol Sing: no link
+26. Winterfest: https://www.skyline-lodge.com/things-to-do-highlands/?eventId=december-5-winterfest-2978173f&preselectedDate=2026-12-05
+27. Saturday Sound Bath: https://unfurlwellnessspa.com/
+28. The Gatlin Brothers: Country & Christmas: https://www.smokymountainarts.com/event-details/the-gatlin-brothers-country-christmas
+29. Sean Dietrich: https://ci.ovationtix.com/36289/production/1251879?performanceId=11695764
+30. HCFF Prelude #1: Papertown: https://www.highlandsperformingarts.com/events-tickets/hcff-prelude-1-papertown
+31. A Holiday Tea: https://www.scottdanielpresents.com/event-details/a-holiday-tea-2026-12-07-11-30-1
+32. Restorative Yoga + Sound Bath: https://yogahighlands.com/classes/
+33. Naturalist Walk: https://docs.google.com/forms/d/e/1FAIpQLScX5zey9-HLYHkK2qirmnNw87gwl96SIX3LS3TPXcfWiIF7Sw/viewform
+34. Chill Seekers Winter Hike to Ranger Falls: https://highlandsbiological.org/calendar/winter-hike-to-ranger-falls/
+35. Live Christmas Music with Matt Molesworth & Friends: https://4118kitchenbar.toast.site
+36. Frozen The Musical: https://www.highlandsperformingarts.com/events-tickets/frozen-the-musical-friday
+37. The Black Jacket Symphony Presents: Kiss “Destroyer”: https://ci.ovationtix.com/36289/production/1286967?performanceId=11855147
+38. Season’s Greetings Holiday Gathering: https://highlandsbiological.org/calendar/seasons-greetings-holiday-gathering/
+39. Sapphire Valley Winter Arts & Crafts Festival: https://sapphirevalleyresorts.com/
+40. Annual Fireside Sale: https://www.folkschool.org/fireside
+41. Christmas Music Bingo: no link
+42. Point of Grace: Comfort & Joy Christmas Tour with Jason Gray: https://www.smokymountainarts.com/event-details/point-of-grace-comfort-joy-christmas-tour-with-jason-gray
+43. Edwin McCain: The Great American Romantic: https://ci.ovationtix.com/36289/production/1281965?performanceId=11840211
+44. Wildcraft Wreath Making: https://docs.google.com/forms/d/e/1FAIpQLSeoU5NjeSTLk8J45x-Tt5fiIEkmFD1gekRZZ8FtYa-0kpMkwA/viewform
+45. Christmas Karaoke with Kyle Rhodes: https://4118kitchenbar.toast.site
+46. A Highlands Christmas with Mike Kinnebrew: https://www.highlandsperformingarts.com/events-tickets/ahighlandschristmas
+47. Salon Series with Tift Merritt: https://www.eventbrite.com/e/highlander-mountain-house-salon-series-with-tift-merritt-tickets-1992447041737
+48. Highlands Christmas Bird Count: https://highlandsbiological.org/calendar/highlands-christmas-bird-count/
+49. Samantha Fish: Shake ’Em on Down Tour: https://ci.ovationtix.com/36289/production/1283372?performanceId=11845441
+50. Breakfast with Santa: https://www.skyline-lodge.com/things-to-do-highlands/?experienceId=december-19-breakfast-with-santa-b2cc673f
+51. Intro to Watercolor I: Learning the Strokes: https://www.thebascom.org/all-events/events-by-type/classes-workshops/intro-to-watercolor-learning-the-strokes-dec
+52. Sleigh the Mic: Christmas Karaoke & Caroling: no link
+53. Vinyl & Vibes: Christmas: https://www.opentable.com/booking/experiences-availability?rid=1183195&restref=1183195&experienceId=796205
+54. Ongoing Events heading (no link)
+55. Ongoing Events list (no single link; More info links below)
+56. Just Landed merch banner: https://highlands-chamber-of-commerce.square.site/
+57. Ask Mayor Pat banner: https://askmayorpat.com/contact-pat
 
 ONGOING "MORE INFO" LINKS
 - Kelsey-Hutchinson Founders Park: https://www.highlandsnc.org/highlands-parks-and-recreation-department/page/ice-rink
